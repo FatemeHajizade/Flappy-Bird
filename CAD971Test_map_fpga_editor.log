@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\Alisa\Desktop\CAD972VGA
+#Date/Time:
+#:T   Wed May 22 14:19:35 2019
+#------------------------------
+	#Reading CAD971Test_map.ncd...
+	#Loading device for application Rf_Device from file '6slx9.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "CAD971Test" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+	#Design creation date: 2019.05.22.09.46.45
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

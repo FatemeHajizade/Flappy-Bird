@@ -1,0 +1,1610 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.63 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.64 secs
+ 
+--> Reading design: CAD971Test.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CAD971Test.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CAD971Test"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : CAD971Test
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_Square.vhd" into library work
+Parsing entity <VGA_Square>.
+INFO:HDLCompiler:1676 - "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_Square.vhd" Line 15. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+Parsing architecture <Behavioral> of entity <vga_square>.
+Parsing VHDL file "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_controller.vhd" into library work
+Parsing entity <VGA_controller>.
+Parsing architecture <Behavioral> of entity <vga_controller>.
+Parsing VHDL file "C:\Users\LENOVO\Desktop\CAD972VGA\CAD971Test.vhd" into library work
+Parsing entity <CAD971Test>.
+INFO:HDLCompiler:1676 - "C:\Users\LENOVO\Desktop\CAD972VGA\CAD971Test.vhd" Line 16. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+Parsing architecture <CAD971Test> of entity <cad971test>.
+INFO:HDLCompiler:1676 - "C:\Users\LENOVO\Desktop\CAD972VGA\CAD971Test.vhd" Line 60. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+WARNING:HDLCompiler:946 - "C:\Users\LENOVO\Desktop\CAD972VGA\CAD971Test.vhd" Line 78: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\LENOVO\Desktop\CAD972VGA\CAD971Test.vhd" Line 88: Actual for formal port reset is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:\Users\LENOVO\Desktop\CAD972VGA\CAD971Test.vhd" Line 89: Actual for formal port kilid is neither a static name nor a globally static expression
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <CAD971Test> (architecture <CAD971Test>) from library <work>.
+
+Elaborating entity <VGA_controller> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <VGA_Square> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_Square.vhd" Line 27: Using initial value "00010010" for barrierwidth since it is never assigned
+WARNING:HDLCompiler:92 - "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_Square.vhd" Line 71: barrierx should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_Square.vhd" Line 73: presentstate should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_Square.vhd" Line 182: presentstate should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <CAD971Test>.
+    Related source file is "C:\Users\LENOVO\Desktop\CAD972VGA\CAD971Test.vhd".
+WARNING:Xst:647 - Input <SW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <CAD971Test> synthesized.
+
+Synthesizing Unit <VGA_controller>.
+    Related source file is "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_controller.vhd".
+    Found 11-bit register for signal <CurrentVPos>.
+    Found 11-bit register for signal <CurrentHPos>.
+    Found 11-bit adder for signal <CurrentHPos[10]_GND_6_o_add_1_OUT> created at line 48.
+    Found 11-bit adder for signal <CurrentVPos[10]_GND_6_o_add_3_OUT> created at line 51.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_17_OUT<10:0>> created at line 76.
+    Found 11-bit subtractor for signal <GND_6_o_GND_6_o_sub_20_OUT<10:0>> created at line 79.
+    Found 11-bit comparator greater for signal <CurrentHPos[10]_GND_6_o_LessThan_1_o> created at line 47
+    Found 11-bit comparator greater for signal <CurrentVPos[10]_GND_6_o_LessThan_3_o> created at line 50
+    Found 11-bit comparator lessequal for signal <CurrentHPos[10]_GND_6_o_LessThan_10_o> created at line 61
+    Found 11-bit comparator lessequal for signal <CurrentVPos[10]_GND_6_o_LessThan_11_o> created at line 64
+    Found 11-bit comparator lessequal for signal <n0012> created at line 67
+    Found 11-bit comparator greater for signal <CurrentHPos[10]_GND_6_o_LessThan_13_o> created at line 67
+    Found 11-bit comparator lessequal for signal <n0017> created at line 70
+    Found 11-bit comparator greater for signal <CurrentVPos[10]_GND_6_o_LessThan_15_o> created at line 70
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+	inferred   7 Multiplexer(s).
+Unit <VGA_controller> synthesized.
+
+Synthesizing Unit <VGA_Square>.
+    Related source file is "C:\Users\LENOVO\Desktop\CAD972VGA\VGA_Square.vhd".
+    Found 1-bit register for signal <didCollide>.
+    Found 1-bit register for signal <Didwin>.
+    Found 1-bit register for signal <clk>.
+    Found 32-bit register for signal <prescalercounter.c>.
+    Found 32-bit register for signal <count>.
+    Found 32-bit register for signal <Jump>.
+    Found 9-bit register for signal <SquareY>.
+    Found 7-bit register for signal <PassedCounter>.
+    Found 7-bit register for signal <Counter>.
+    Found 10-bit register for signal <BarrierX>.
+    Found 2-bit register for signal <PresentState>.
+    Found 8-bit register for signal <SevenSeg>.
+    Found 8-bit register for signal <LED>.
+    Found 4-bit register for signal <SevenSegEn>.
+    Found 33-bit register for signal <scaler>.
+    Found 32-bit register for signal <prescalercounter.Speed>.
+    Found 1-bit register for signal <PresButt>.
+    Found 10-bit register for signal <randomint>.
+    Found 10-bit register for signal <randomint2>.
+    Found 32-bit register for signal <pseudo_rand>.
+    Found 1-bit register for signal <BarrierX2<9>>.
+    Found 1-bit register for signal <BarrierX2<8>>.
+    Found 1-bit register for signal <BarrierX2<7>>.
+    Found 1-bit register for signal <BarrierX2<6>>.
+    Found 1-bit register for signal <BarrierX2<5>>.
+    Found 1-bit register for signal <BarrierX2<4>>.
+    Found 1-bit register for signal <BarrierX2<3>>.
+    Found 1-bit register for signal <BarrierX2<2>>.
+    Found 1-bit register for signal <BarrierX2<1>>.
+    Found 1-bit register for signal <BarrierX2<0>>.
+    Found finite state machine <FSM_0> for signal <PresentState>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CLK_24MHz (rising_edge)                        |
+    | Reset              | RESET (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | swait                                          |
+    | Power Up State     | swait                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <SevenSegEn>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 61                                             |
+    | Inputs             | 27                                             |
+    | Outputs            | 28                                             |
+    | Clock              | CLK_24MHz (rising_edge)                        |
+    | Reset              | RESET (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 1110                                           |
+    | Power Up State     | 1111                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <prescalercounter.Speed>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 62                                             |
+    | Inputs             | 8                                              |
+    | Outputs            | 19                                             |
+    | Clock              | CLK_24MHz (rising_edge)                        |
+    | Reset              | RESET (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00000000000010101111110010000000               |
+    | Power Up State     | 00000000000010101111110010000000               |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit adder for signal <prescalercounter.c[31]_GND_8_o_add_3_OUT> created at line 74.
+    Found 9-bit adder for signal <SquareY[8]_GND_8_o_add_11_OUT> created at line 85.
+    Found 10-bit adder for signal <GND_8_o_GND_8_o_add_26_OUT> created at line 102.
+    Found 7-bit adder for signal <PassedCounter[6]_GND_8_o_add_83_OUT> created at line 1241.
+    Found 32-bit adder for signal <count[31]_GND_8_o_add_122_OUT> created at line 174.
+    Found 7-bit adder for signal <Counter[6]_GND_8_o_add_127_OUT> created at line 1241.
+    Found 33-bit adder for signal <scaler[32]_GND_8_o_add_131_OUT> created at line 203.
+    Found 9-bit adder for signal <SquareY[8]_GND_8_o_add_336_OUT> created at line 295.
+    Found 10-bit adder for signal <BarrierX[9]_GND_8_o_add_339_OUT> created at line 296.
+    Found 10-bit adder for signal <BarrierX2[9]_GND_8_o_add_347_OUT> created at line 297.
+    Found 9-bit subtractor for signal <GND_8_o_Jump[31]_sub_9_OUT<8:0>> created at line 83.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_21_OUT<9:0>> created at line 95.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_22_OUT<9:0>> created at line 96.
+    Found 10-bit subtractor for signal <GND_8_o_GND_8_o_sub_25_OUT<9:0>> created at line 100.
+    Found 10-bit adder for signal <randomint2[9]_GND_8_o_add_352_OUT> created at line 297.
+    Found 10-bit adder for signal <randomint[9]_GND_8_o_add_344_OUT> created at line 296.
+    Found 16x8-bit Read Only RAM for signal <_n0741>
+    Found 16x8-bit Read Only RAM for signal <_n0747>
+    Found 16x8-bit Read Only RAM for signal <_n0753>
+    Found 16x8-bit Read Only RAM for signal <_n0759>
+    Found 32-bit comparator equal for signal <prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o> created at line 75
+    Found 9-bit comparator lessequal for signal <n0014> created at line 82
+    Found 9-bit comparator lessequal for signal <n0019> created at line 84
+    Found 9-bit comparator greater for signal <n0026> created at line 90
+    Found 9-bit comparator greater for signal <PWR_9_o_pseudo_rand[8]_LessThan_24_o> created at line 99
+    Found 9-bit comparator greater for signal <pseudo_rand[8]_GND_8_o_LessThan_26_o> created at line 101
+    Found 10-bit comparator lessequal for signal <n0055> created at line 133
+    Found 10-bit comparator lessequal for signal <n0057> created at line 133
+    Found 10-bit comparator lessequal for signal <n0060> created at line 133
+    Found 10-bit comparator lessequal for signal <n0062> created at line 133
+    Found 10-bit comparator greater for signal <GND_8_o_randomint[9]_LessThan_60_o> created at line 133
+    Found 10-bit comparator greater for signal <randomint[9]_GND_8_o_LessThan_65_o> created at line 133
+    Found 10-bit comparator lessequal for signal <n0070> created at line 133
+    Found 10-bit comparator lessequal for signal <n0072> created at line 133
+    Found 10-bit comparator lessequal for signal <n0075> created at line 133
+    Found 10-bit comparator lessequal for signal <n0077> created at line 133
+    Found 10-bit comparator greater for signal <GND_8_o_randomint2[9]_LessThan_74_o> created at line 133
+    Found 10-bit comparator greater for signal <randomint2[9]_GND_8_o_LessThan_79_o> created at line 133
+    Found 11-bit comparator lessequal for signal <n0339> created at line 295
+    Found 11-bit comparator lessequal for signal <n0341> created at line 295
+    Found 11-bit comparator greater for signal <ScanlineX[10]_GND_8_o_LessThan_336_o> created at line 295
+    Found 11-bit comparator greater for signal <ScanlineY[10]_GND_8_o_LessThan_338_o> created at line 295
+    Found 11-bit comparator lessequal for signal <n0350> created at line 296
+    Found 11-bit comparator greater for signal <ScanlineX[10]_GND_8_o_LessThan_341_o> created at line 296
+    Found 11-bit comparator greater for signal <ScanlineY[10]_GND_8_o_LessThan_342_o> created at line 296
+    Found 11-bit comparator greater for signal <GND_8_o_ScanlineY[10]_LessThan_346_o> created at line 296
+    Found 11-bit comparator lessequal for signal <n0362> created at line 297
+    Found 11-bit comparator greater for signal <ScanlineX[10]_GND_8_o_LessThan_349_o> created at line 297
+    Found 11-bit comparator greater for signal <ScanlineY[10]_GND_8_o_LessThan_350_o> created at line 297
+    Found 11-bit comparator greater for signal <GND_8_o_ScanlineY[10]_LessThan_354_o> created at line 297
+    Summary:
+	inferred   4 RAM(s).
+	inferred  15 Adder/Subtractor(s).
+	inferred 244 D-type flip-flop(s).
+	inferred  30 Comparator(s).
+	inferred  34 Multiplexer(s).
+	inferred   3 Finite State Machine(s).
+Unit <VGA_Square> synthesized.
+
+Synthesizing Unit <rem_7u_7u>.
+    Related source file is "".
+    Found 14-bit adder for signal <n0236> created at line 0.
+    Found 14-bit adder for signal <GND_18_o_b[6]_add_1_OUT> created at line 0.
+    Found 13-bit adder for signal <n0240> created at line 0.
+    Found 13-bit adder for signal <GND_18_o_b[6]_add_3_OUT> created at line 0.
+    Found 12-bit adder for signal <n0244> created at line 0.
+    Found 12-bit adder for signal <GND_18_o_b[6]_add_5_OUT> created at line 0.
+    Found 11-bit adder for signal <n0248> created at line 0.
+    Found 11-bit adder for signal <GND_18_o_b[6]_add_7_OUT> created at line 0.
+    Found 10-bit adder for signal <n0252> created at line 0.
+    Found 10-bit adder for signal <GND_18_o_b[6]_add_9_OUT> created at line 0.
+    Found 9-bit adder for signal <n0256> created at line 0.
+    Found 9-bit adder for signal <GND_18_o_b[6]_add_11_OUT> created at line 0.
+    Found 8-bit adder for signal <n0260> created at line 0.
+    Found 8-bit adder for signal <GND_18_o_b[6]_add_13_OUT> created at line 0.
+    Found 7-bit adder for signal <n0264> created at line 0.
+    Found 7-bit adder for signal <a[6]_b[6]_add_15_OUT[6:0]> created at line 0.
+    Found 14-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 12-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 11-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 7-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Summary:
+	inferred  16 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+	inferred  44 Multiplexer(s).
+Unit <rem_7u_7u> synthesized.
+
+Synthesizing Unit <div_7u_7u>.
+    Related source file is "".
+    Found 14-bit adder for signal <n0236> created at line 0.
+    Found 14-bit adder for signal <GND_19_o_b[6]_add_1_OUT> created at line 0.
+    Found 13-bit adder for signal <n0240> created at line 0.
+    Found 13-bit adder for signal <GND_19_o_b[6]_add_3_OUT> created at line 0.
+    Found 12-bit adder for signal <n0244> created at line 0.
+    Found 12-bit adder for signal <GND_19_o_b[6]_add_5_OUT> created at line 0.
+    Found 11-bit adder for signal <n0248> created at line 0.
+    Found 11-bit adder for signal <GND_19_o_b[6]_add_7_OUT> created at line 0.
+    Found 10-bit adder for signal <n0252> created at line 0.
+    Found 10-bit adder for signal <GND_19_o_b[6]_add_9_OUT> created at line 0.
+    Found 9-bit adder for signal <n0256> created at line 0.
+    Found 9-bit adder for signal <GND_19_o_b[6]_add_11_OUT> created at line 0.
+    Found 8-bit adder for signal <n0260> created at line 0.
+    Found 8-bit adder for signal <GND_19_o_b[6]_add_13_OUT> created at line 0.
+    Found 14-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 12-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 11-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 7-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Summary:
+	inferred  14 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+	inferred  43 Multiplexer(s).
+Unit <div_7u_7u> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 16x8-bit single-port Read Only RAM                    : 4
+# Adders/Subtractors                                   : 79
+ 10-bit adder                                          : 12
+ 10-bit addsub                                         : 1
+ 10-bit subtractor                                     : 2
+ 11-bit adder                                          : 10
+ 11-bit subtractor                                     : 2
+ 12-bit adder                                          : 8
+ 13-bit adder                                          : 8
+ 14-bit adder                                          : 8
+ 32-bit adder                                          : 2
+ 33-bit adder                                          : 1
+ 7-bit adder                                           : 6
+ 8-bit adder                                           : 8
+ 9-bit adder                                           : 10
+ 9-bit subtractor                                      : 1
+# Registers                                            : 29
+ 1-bit register                                        : 14
+ 10-bit register                                       : 3
+ 11-bit register                                       : 2
+ 32-bit register                                       : 4
+ 33-bit register                                       : 1
+ 7-bit register                                        : 2
+ 8-bit register                                        : 2
+ 9-bit register                                        : 1
+# Comparators                                          : 70
+ 10-bit comparator greater                             : 4
+ 10-bit comparator lessequal                           : 12
+ 11-bit comparator greater                             : 12
+ 11-bit comparator lessequal                           : 12
+ 12-bit comparator lessequal                           : 4
+ 13-bit comparator lessequal                           : 4
+ 14-bit comparator lessequal                           : 4
+ 32-bit comparator equal                               : 1
+ 7-bit comparator lessequal                            : 4
+ 8-bit comparator lessequal                            : 4
+ 9-bit comparator greater                              : 3
+ 9-bit comparator lessequal                            : 6
+# Multiplexers                                         : 215
+ 1-bit 2-to-1 multiplexer                              : 168
+ 10-bit 2-to-1 multiplexer                             : 4
+ 11-bit 2-to-1 multiplexer                             : 4
+ 2-bit 2-to-1 multiplexer                              : 3
+ 32-bit 2-to-1 multiplexer                             : 2
+ 33-bit 2-to-1 multiplexer                             : 4
+ 6-bit 2-to-1 multiplexer                              : 2
+ 7-bit 2-to-1 multiplexer                              : 7
+ 8-bit 2-to-1 multiplexer                              : 17
+ 9-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 3
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <LED_0> in Unit <VGA_SQ> is equivalent to the following 7 FFs/Latches, which will be removed : <LED_1> <LED_2> <LED_3> <LED_4> <LED_5> <LED_6> <LED_7> 
+INFO:Xst:2261 - The FF/Latch <Jump_2> in Unit <VGA_SQ> is equivalent to the following FF/Latch, which will be removed : <Jump_4> 
+INFO:Xst:2261 - The FF/Latch <Jump_0> in Unit <VGA_SQ> is equivalent to the following 4 FFs/Latches, which will be removed : <Jump_5> <Jump_6> <Jump_7> <Jump_8> 
+INFO:Xst:2261 - The FF/Latch <Jump_1> in Unit <VGA_SQ> is equivalent to the following FF/Latch, which will be removed : <Jump_3> 
+WARNING:Xst:1293 - FF/Latch <Jump_0> has a constant value of 0 in block <VGA_SQ>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Jump_2> has a constant value of 1 in block <VGA_SQ>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Jump_9> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_10> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_11> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_12> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_13> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_14> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_15> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_16> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_17> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_18> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_19> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_20> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_21> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_22> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_23> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_24> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_25> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_26> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_27> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_28> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_29> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_30> of sequential type is unconnected in block <VGA_SQ>.
+WARNING:Xst:2677 - Node <Jump_31> of sequential type is unconnected in block <VGA_SQ>.
+
+Synthesizing (advanced) Unit <VGA_Square>.
+The following registers are absorbed into counter <PassedCounter>: 1 register on signal <PassedCounter>.
+The following registers are absorbed into counter <Counter>: 1 register on signal <Counter>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0741> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PassedCounter[6]_GND_8_o_rem_150_OUT<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0747> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <PassedCounter[6]_GND_8_o_div_151_OUT<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0753> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Counter[6]_GND_8_o_rem_148_OUT<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0759> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 8-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <Counter[6]_GND_8_o_div_149_OUT<3:0>> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <VGA_Square> synthesized (advanced).
+
+Synthesizing (advanced) Unit <VGA_controller>.
+The following registers are absorbed into counter <CurrentHPos>: 1 register on signal <CurrentHPos>.
+The following registers are absorbed into counter <CurrentVPos>: 1 register on signal <CurrentVPos>.
+Unit <VGA_controller> synthesized (advanced).
+WARNING:Xst:2677 - Node <Jump_9> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_10> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_11> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_12> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_13> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_14> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_15> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_16> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_17> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_18> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_19> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_20> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_21> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_22> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_23> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_24> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_25> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_26> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_27> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_28> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_29> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_30> of sequential type is unconnected in block <VGA_Square>.
+WARNING:Xst:2677 - Node <Jump_31> of sequential type is unconnected in block <VGA_Square>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 16x8-bit single-port distributed Read Only RAM        : 4
+# Adders/Subtractors                                   : 45
+ 10-bit adder                                          : 4
+ 10-bit addsub                                         : 1
+ 10-bit subtractor                                     : 2
+ 11-bit subtractor                                     : 2
+ 32-bit adder                                          : 2
+ 33-bit adder                                          : 1
+ 7-bit adder carry in                                  : 30
+ 9-bit adder                                           : 2
+ 9-bit subtractor                                      : 1
+# Counters                                             : 4
+ 11-bit up counter                                     : 2
+ 7-bit up counter                                      : 2
+# Registers                                            : 207
+ Flip-Flops                                            : 207
+# Comparators                                          : 70
+ 10-bit comparator greater                             : 4
+ 10-bit comparator lessequal                           : 12
+ 11-bit comparator greater                             : 12
+ 11-bit comparator lessequal                           : 12
+ 12-bit comparator lessequal                           : 4
+ 13-bit comparator lessequal                           : 4
+ 14-bit comparator lessequal                           : 4
+ 32-bit comparator equal                               : 1
+ 7-bit comparator lessequal                            : 4
+ 8-bit comparator lessequal                            : 4
+ 9-bit comparator greater                              : 3
+ 9-bit comparator lessequal                            : 6
+# Multiplexers                                         : 212
+ 1-bit 2-to-1 multiplexer                              : 168
+ 10-bit 2-to-1 multiplexer                             : 4
+ 11-bit 2-to-1 multiplexer                             : 2
+ 2-bit 2-to-1 multiplexer                              : 3
+ 32-bit 2-to-1 multiplexer                             : 2
+ 33-bit 2-to-1 multiplexer                             : 4
+ 6-bit 2-to-1 multiplexer                              : 2
+ 7-bit 2-to-1 multiplexer                              : 6
+ 8-bit 2-to-1 multiplexer                              : 17
+ 9-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 3
+# Xors                                                 : 3
+ 1-bit xor2                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <Jump_0> has a constant value of 0 in block <VGA_Square>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Jump_2> has a constant value of 1 in block <VGA_Square>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Jump_4> has a constant value of 1 in block <VGA_Square>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Jump_5> has a constant value of 0 in block <VGA_Square>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Jump_6> has a constant value of 0 in block <VGA_Square>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Jump_7> has a constant value of 0 in block <VGA_Square>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Jump_8> has a constant value of 0 in block <VGA_Square>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <LED_0> in Unit <VGA_Square> is equivalent to the following 7 FFs/Latches, which will be removed : <LED_1> <LED_2> <LED_3> <LED_4> <LED_5> <LED_6> <LED_7> 
+INFO:Xst:2261 - The FF/Latch <Jump_1> in Unit <VGA_Square> is equivalent to the following FF/Latch, which will be removed : <Jump_3> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <VGA_SQ/FSM_0> on signal <PresentState[1:2]> with gray encoding.
+--------------------
+ State  | Encoding
+--------------------
+ swait  | 00
+ gameon | 01
+ ended  | 11
+--------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <VGA_SQ/FSM_2> on signal <prescalercounter.Speed[1:3]> with sequential encoding.
+----------------------------------------------
+ State                            | Encoding
+----------------------------------------------
+ 00000000000010101111110010000000 | 000
+ 00000000000000000010101111110010 | 001
+ 00000000000000000101011111100100 | 010
+ 00000000000000001010111111001000 | 011
+ 00000000000000010101111110010000 | 100
+ 00000000000000101011111100100000 | 101
+ 00000000000001010111111001000000 | 110
+----------------------------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <VGA_SQ/FSM_1> on signal <SevenSegEn[1:5]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 1110  | 00001
+ 1111  | 00010
+ 0111  | 00100
+ 1011  | 01000
+ 1101  | 10000
+-------------------
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    BarrierX2_0 in unit <VGA_Square>
+    BarrierX2_1 in unit <VGA_Square>
+    BarrierX2_2 in unit <VGA_Square>
+    BarrierX2_3 in unit <VGA_Square>
+    BarrierX2_4 in unit <VGA_Square>
+    BarrierX2_5 in unit <VGA_Square>
+    BarrierX2_6 in unit <VGA_Square>
+    BarrierX2_7 in unit <VGA_Square>
+    BarrierX2_8 in unit <VGA_Square>
+    BarrierX2_9 in unit <VGA_Square>
+
+
+  List of register instances with asynchronous set or reset and opposite initialization value:
+    SevenSegEn_FSM_FFd4 in unit <VGA_Square>
+    SevenSegEn_FSM_FFd5 in unit <VGA_Square>
+    SevenSeg_7 in unit <VGA_Square>
+    SevenSeg_6 in unit <VGA_Square>
+    SevenSeg_5 in unit <VGA_Square>
+    SevenSeg_4 in unit <VGA_Square>
+    SevenSeg_3 in unit <VGA_Square>
+    SevenSeg_2 in unit <VGA_Square>
+    SevenSeg_1 in unit <VGA_Square>
+    SevenSeg_0 in unit <VGA_Square>
+    count_31 in unit <VGA_Square>
+
+
+Optimizing unit <CAD971Test> ...
+
+Optimizing unit <VGA_controller> ...
+
+Optimizing unit <VGA_Square> ...
+WARNING:Xst:1293 - FF/Latch <VGA_Control/CurrentVPos_10> has a constant value of 0 in block <CAD971Test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <VGA_Control/CurrentHPos_10> has a constant value of 0 in block <CAD971Test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <VGA_SQ/randomint2_9> has a constant value of 0 in block <CAD971Test>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <VGA_SQ/randomint_9> has a constant value of 0 in block <CAD971Test>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CAD971Test, actual ratio is 17.
+WARNING:Xst:1426 - The value init of the FF/Latch VGA_SQ/SevenSegEn_FSM_FFd5_LD hinder the constant cleaning in the block CAD971Test.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch VGA_SQ/SevenSegEn_FSM_FFd4_LD hinder the constant cleaning in the block CAD971Test.
+   You should achieve better results by setting this init to 0.
+
+Final Macro Processing ...
+
+Processing Unit <CAD971Test> :
+	Found 10-bit shift register for signal <VGA_SQ/pseudo_rand_31>.
+	Found 13-bit shift register for signal <VGA_SQ/pseudo_rand_21>.
+Unit <CAD971Test> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 232
+ Flip-Flops                                            : 232
+# Shift Registers                                      : 2
+ 10-bit shift register                                 : 1
+ 13-bit shift register                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : CAD971Test.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1187
+#      GND                         : 1
+#      INV                         : 18
+#      LUT1                        : 99
+#      LUT2                        : 123
+#      LUT3                        : 73
+#      LUT4                        : 164
+#      LUT5                        : 111
+#      LUT6                        : 266
+#      MUXCY                       : 195
+#      MUXF7                       : 10
+#      VCC                         : 1
+#      XORCY                       : 126
+# FlipFlops/Latches                : 246
+#      FD                          : 13
+#      FDC                         : 108
+#      FDCE                        : 65
+#      FDE                         : 28
+#      FDP                         : 11
+#      FDPE                        : 9
+#      LD                          : 2
+#      LDC                         : 10
+# Shift Registers                  : 2
+#      SRLC16E                     : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 30
+#      IBUF                        : 2
+#      OBUF                        : 28
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             246  out of  11440     2%  
+ Number of Slice LUTs:                  856  out of   5720    14%  
+    Number used as Logic:               854  out of   5720    14%  
+    Number used as Memory:                2  out of   1440     0%  
+       Number used as SRL:                2
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    897
+   Number with an unused Flip Flop:     651  out of    897    72%  
+   Number with an unused LUT:            41  out of    897     4%  
+   Number of fully used LUT-FF pairs:   205  out of    897    22%  
+   Number of unique control sets:        45
+
+IO Utilization: 
+ Number of IOs:                          39
+ Number of bonded IOBs:                  31  out of    102    30%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------------------------------+--------------------------------+-------+
+Clock Signal                                                   | Clock buffer(FF name)          | Load  |
+---------------------------------------------------------------+--------------------------------+-------+
+CLOCK_24                                                       | BUFGP                          | 229   |
+VGA_SQ/clk                                                     | NONE(VGA_SQ/Counter_6)         | 7     |
+RESET_N                                                        | IBUF+BUFG                      | 2     |
+VGA_SQ/RESET_GND_8_o_AND_49_o(VGA_SQ/RESET_GND_8_o_AND_49_o1:O)| NONE(*)(VGA_SQ/BarrierX2_0_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_47_o(VGA_SQ/RESET_GND_8_o_AND_47_o1:O)| NONE(*)(VGA_SQ/BarrierX2_1_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_45_o(VGA_SQ/RESET_GND_8_o_AND_45_o1:O)| NONE(*)(VGA_SQ/BarrierX2_2_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_43_o(VGA_SQ/RESET_GND_8_o_AND_43_o1:O)| NONE(*)(VGA_SQ/BarrierX2_3_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_41_o(VGA_SQ/RESET_GND_8_o_AND_41_o1:O)| NONE(*)(VGA_SQ/BarrierX2_4_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_39_o(VGA_SQ/RESET_GND_8_o_AND_39_o1:O)| NONE(*)(VGA_SQ/BarrierX2_5_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_37_o(VGA_SQ/RESET_GND_8_o_AND_37_o1:O)| NONE(*)(VGA_SQ/BarrierX2_6_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_35_o(VGA_SQ/RESET_GND_8_o_AND_35_o1:O)| NONE(*)(VGA_SQ/BarrierX2_7_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_33_o(VGA_SQ/RESET_GND_8_o_AND_33_o:O) | NONE(*)(VGA_SQ/BarrierX2_8_LDC)| 1     |
+VGA_SQ/RESET_GND_8_o_AND_31_o(VGA_SQ/RESET_GND_8_o_AND_31_o1:O)| NONE(*)(VGA_SQ/BarrierX2_9_LDC)| 1     |
+---------------------------------------------------------------+--------------------------------+-------+
+(*) These 10 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 7.647ns (Maximum Frequency: 130.764MHz)
+   Minimum input arrival time before clock: 7.218ns
+   Maximum output required time after clock: 17.113ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_24'
+  Clock period: 7.647ns (frequency: 130.764MHz)
+  Total number of paths / destination ports: 72118 / 341
+-------------------------------------------------------------------------
+Delay:               7.647ns (Levels of Logic = 28)
+  Source:            VGA_SQ/prescalercounter.c_0 (FF)
+  Destination:       VGA_SQ/PassedCounter_6 (FF)
+  Source Clock:      CLOCK_24 rising
+  Destination Clock: CLOCK_24 rising
+
+  Data Path: VGA_SQ/prescalercounter.c_0 to VGA_SQ/PassedCounter_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.525   0.681  VGA_SQ/prescalercounter.c_0 (VGA_SQ/prescalercounter.c_0)
+     INV:I->O              1   0.255   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_lut<0>_INV_0 (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<0> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<1> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<2> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<3> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<4> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<5> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<6> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<7> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<8> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<9> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<10> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<11> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<12> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<13> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<14> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<15> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<16> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<17> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<18> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<19> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<20> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<21> (VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_cy<21>)
+     XORCY:CI->O           2   0.206   1.181  VGA_SQ/Madd_prescalercounter.c[31]_GND_8_o_add_3_OUT_xor<22> (VGA_SQ/prescalercounter.c[31]_GND_8_o_add_3_OUT<22>)
+     LUT6:I0->O            1   0.254   0.000  VGA_SQ/Mcompar_prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o_lut<7> (VGA_SQ/Mcompar_prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o_lut<7>)
+     MUXCY:S->O            1   0.215   0.000  VGA_SQ/Mcompar_prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o_cy<7> (VGA_SQ/Mcompar_prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o_cy<7>)
+     MUXCY:CI->O          63   0.023   1.921  VGA_SQ/Mcompar_prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o_cy<8> (VGA_SQ/prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o)
+     INV:I->O             14   0.255   1.126  VGA_SQ/Mcompar_prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o_cy<8>_inv_INV_0 (VGA_SQ/Mcompar_prescalercounter.Speed[31]_prescalercounter.c[31]_equal_5_o_cy<8>_inv)
+     FDPE:CE                   0.302          VGA_SQ/BarrierX_4
+    ----------------------------------------
+    Total                      7.647ns (2.739ns logic, 4.909ns route)
+                                       (35.8% logic, 64.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'VGA_SQ/clk'
+  Clock period: 3.912ns (frequency: 255.621MHz)
+  Total number of paths / destination ports: 33 / 7
+-------------------------------------------------------------------------
+Delay:               3.912ns (Levels of Logic = 2)
+  Source:            VGA_SQ/Counter_1 (FF)
+  Destination:       VGA_SQ/Counter_2 (FF)
+  Source Clock:      VGA_SQ/clk rising
+  Destination Clock: VGA_SQ/clk rising
+
+  Data Path: VGA_SQ/Counter_1 to VGA_SQ/Counter_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            32   0.525   1.628  VGA_SQ/Counter_1 (VGA_SQ/Counter_1)
+     LUT2:I0->O            2   0.250   1.181  VGA_SQ/Mcount_Counter_xor<5>1_SW0 (N14)
+     LUT6:I0->O            1   0.254   0.000  VGA_SQ/Mcount_Counter_xor<2>1 (VGA_SQ/Mcount_Counter2)
+     FDCE:D                    0.074          VGA_SQ/Counter_2
+    ----------------------------------------
+    Total                      3.912ns (1.103ns logic, 2.809ns route)
+                                       (28.2% logic, 71.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLOCK_24'
+  Total number of paths / destination ports: 243 / 215
+-------------------------------------------------------------------------
+Offset:              7.218ns (Levels of Logic = 6)
+  Source:            Key0 (PAD)
+  Destination:       VGA_SQ/SquareY_8 (FF)
+  Destination Clock: CLOCK_24 rising
+
+  Data Path: Key0 to VGA_SQ/SquareY_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   1.328   1.524  Key0_IBUF (Key0_IBUF)
+     LUT6:I0->O            1   0.254   0.682  VGA_SQ/_n0839_inv3 (VGA_SQ/_n0839_inv3)
+     LUT6:I5->O            1   0.254   0.682  VGA_SQ/_n0839_inv4 (VGA_SQ/_n0839_inv4)
+     LUT5:I4->O            9   0.254   0.976  VGA_SQ/_n0839_inv5_rstpot (VGA_SQ/_n0839_inv5_rstpot)
+     LUT6:I5->O            1   0.254   0.682  VGA_SQ/SquareY_6_dpot (VGA_SQ/SquareY_6_dpot)
+     LUT4:I3->O            1   0.254   0.000  VGA_SQ/SquareY_6_dpot1 (VGA_SQ/SquareY_6_dpot1)
+     FDPE:D                    0.074          VGA_SQ/SquareY_6
+    ----------------------------------------
+    Total                      7.218ns (2.672ns logic, 4.546ns route)
+                                       (37.0% logic, 63.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/clk'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              5.807ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/Counter_6 (FF)
+  Destination Clock: VGA_SQ/clk rising
+
+  Data Path: RESET_N to VGA_SQ/Counter_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.379  RESET_N_IBUF (RESET_N_IBUF)
+     INV:I->O            173   0.255   2.386  RESET_N_IBUF_BUFG_LUT1_INV_0 (RESET_N_IBUF_BUFG_LUT1)
+     FDCE:CLR                  0.459          VGA_SQ/Counter_0
+    ----------------------------------------
+    Total                      5.807ns (2.042ns logic, 3.765ns route)
+                                       (35.2% logic, 64.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_49_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.250ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_0_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_49_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_0_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.488  RESET_N_IBUF (RESET_N_IBUF)
+     LUT2:I0->O            2   0.250   0.725  VGA_SQ/RESET_GND_8_o_AND_50_o1 (VGA_SQ/RESET_GND_8_o_AND_50_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_0_LDC
+    ----------------------------------------
+    Total                      4.250ns (2.037ns logic, 2.213ns route)
+                                       (47.9% logic, 52.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_47_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.146ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_1_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_47_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_1_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.380  RESET_N_IBUF (RESET_N_IBUF)
+     LUT2:I1->O            2   0.254   0.725  VGA_SQ/RESET_GND_8_o_AND_48_o1 (VGA_SQ/RESET_GND_8_o_AND_48_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_1_LDC
+    ----------------------------------------
+    Total                      4.146ns (2.041ns logic, 2.105ns route)
+                                       (49.2% logic, 50.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_45_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.355ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_2_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_45_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_2_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.608  RESET_N_IBUF (RESET_N_IBUF)
+     LUT3:I0->O            2   0.235   0.725  VGA_SQ/RESET_GND_8_o_AND_46_o1 (VGA_SQ/RESET_GND_8_o_AND_46_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_2_LDC
+    ----------------------------------------
+    Total                      4.355ns (2.022ns logic, 2.333ns route)
+                                       (46.4% logic, 53.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_43_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.422ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_3_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_43_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_3_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.656  RESET_N_IBUF (RESET_N_IBUF)
+     LUT4:I0->O            2   0.254   0.725  VGA_SQ/RESET_GND_8_o_AND_44_o1 (VGA_SQ/RESET_GND_8_o_AND_44_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_3_LDC
+    ----------------------------------------
+    Total                      4.422ns (2.041ns logic, 2.381ns route)
+                                       (46.2% logic, 53.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_41_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.576ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_4_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_41_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_4_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.810  RESET_N_IBUF (RESET_N_IBUF)
+     LUT5:I0->O            2   0.254   0.725  VGA_SQ/RESET_GND_8_o_AND_42_o1 (VGA_SQ/RESET_GND_8_o_AND_42_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_4_LDC
+    ----------------------------------------
+    Total                      4.576ns (2.041ns logic, 2.535ns route)
+                                       (44.6% logic, 55.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_39_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.601ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_5_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_39_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_5_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.835  RESET_N_IBUF (RESET_N_IBUF)
+     LUT6:I0->O            2   0.254   0.725  VGA_SQ/RESET_GND_8_o_AND_40_o1 (VGA_SQ/RESET_GND_8_o_AND_40_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_5_LDC
+    ----------------------------------------
+    Total                      4.601ns (2.041ns logic, 2.560ns route)
+                                       (44.4% logic, 55.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_37_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.576ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_6_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_37_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_6_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.810  RESET_N_IBUF (RESET_N_IBUF)
+     LUT5:I0->O            2   0.254   0.725  VGA_SQ/RESET_GND_8_o_AND_38_o1 (VGA_SQ/RESET_GND_8_o_AND_38_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_6_LDC
+    ----------------------------------------
+    Total                      4.576ns (2.041ns logic, 2.535ns route)
+                                       (44.6% logic, 55.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_35_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.601ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_7_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_35_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_7_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.835  RESET_N_IBUF (RESET_N_IBUF)
+     LUT6:I0->O            2   0.254   0.725  VGA_SQ/RESET_GND_8_o_AND_36_o1 (VGA_SQ/RESET_GND_8_o_AND_36_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_7_LDC
+    ----------------------------------------
+    Total                      4.601ns (2.041ns logic, 2.560ns route)
+                                       (44.4% logic, 55.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_33_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.576ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_8_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_33_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_8_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.810  RESET_N_IBUF (RESET_N_IBUF)
+     LUT5:I0->O            2   0.254   0.725  VGA_SQ/RESET_GND_8_o_AND_34_o (VGA_SQ/RESET_GND_8_o_AND_34_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_8_LDC
+    ----------------------------------------
+    Total                      4.576ns (2.041ns logic, 2.535ns route)
+                                       (44.6% logic, 55.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'VGA_SQ/RESET_GND_8_o_AND_31_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.250ns (Levels of Logic = 2)
+  Source:            RESET_N (PAD)
+  Destination:       VGA_SQ/BarrierX2_9_LDC (LATCH)
+  Destination Clock: VGA_SQ/RESET_GND_8_o_AND_31_o falling
+
+  Data Path: RESET_N to VGA_SQ/BarrierX2_9_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.328   1.488  RESET_N_IBUF (RESET_N_IBUF)
+     LUT2:I0->O            2   0.250   0.725  VGA_SQ/RESET_GND_8_o_AND_32_o1 (VGA_SQ/RESET_GND_8_o_AND_32_o)
+     LDC:CLR                   0.459          VGA_SQ/BarrierX2_9_LDC
+    ----------------------------------------
+    Total                      4.250ns (2.037ns logic, 2.213ns route)
+                                       (47.9% logic, 52.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'RESET_N'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              5.676ns (Levels of Logic = 2)
+  Source:            VGA_SQ/SevenSegEn_FSM_FFd4_LD (LATCH)
+  Destination:       seg<7> (PAD)
+  Source Clock:      RESET_N rising
+
+  Data Path: VGA_SQ/SevenSegEn_FSM_FFd4_LD to seg<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q              11   0.581   1.267  VGA_SQ/SevenSegEn_FSM_FFd4_LD (VGA_SQ/SevenSegEn_FSM_FFd4_LD)
+     LUT3:I0->O            1   0.235   0.681  VGA_SQ/SevenSeg_71 (VGA_SQ/SevenSeg_7)
+     OBUF:I->O                 2.912          seg_7_OBUF (seg<7>)
+    ----------------------------------------
+    Total                      5.676ns (3.728ns logic, 1.948ns route)
+                                       (65.7% logic, 34.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_24'
+  Total number of paths / destination ports: 29317 / 28
+-------------------------------------------------------------------------
+Offset:              17.113ns (Levels of Logic = 11)
+  Source:            VGA_Control/CurrentVPos_2 (FF)
+  Destination:       VGA_G<1> (PAD)
+  Source Clock:      CLOCK_24 rising
+
+  Data Path: VGA_Control/CurrentVPos_2 to VGA_G<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.525   1.052  VGA_Control/CurrentVPos_2 (VGA_Control/CurrentVPos_2)
+     LUT2:I0->O            3   0.250   0.766  VGA_Control/Blank_INV_22_o111 (VGA_Control/Blank_INV_22_o11)
+     LUT6:I5->O           11   0.254   1.039  VGA_Control/Blank_INV_22_o2 (VGA_Control/Blank_INV_22_o2)
+     LUT5:I4->O           15   0.254   1.263  VGA_Control/Blank_INV_22_o3 (VGA_Control/Blank_INV_22_o)
+     LUT3:I1->O            5   0.250   1.296  VGA_Control/Mmux_ScanlineX21 (ScanlineX<10>)
+     LUT6:I0->O            1   0.254   0.910  VGA_SQ/GND_8_o_ScanlineY[10]_AND_26_o1 (VGA_SQ/GND_8_o_ScanlineY[10]_AND_26_o1)
+     LUT6:I3->O            1   0.235   0.682  VGA_SQ/GND_8_o_ScanlineY[10]_AND_26_o2 (VGA_SQ/GND_8_o_ScanlineY[10]_AND_26_o2)
+     LUT4:I3->O            1   0.254   1.137  VGA_SQ/GND_8_o_ScanlineY[10]_AND_26_o3_SW0 (N191)
+     LUT6:I0->O            2   0.254   1.181  VGA_SQ/GND_8_o_ScanlineY[10]_AND_26_o3 (VGA_SQ/GND_8_o_ScanlineY[10]_AND_26_o)
+     LUT6:I0->O            1   0.254   1.112  VGA_SQ/ColorOutput<3> (ColorTable<2>)
+     LUT6:I1->O            2   0.254   0.725  VGA_Control/Mmux_GREEN11 (VGA_G_0_OBUF)
+     OBUF:I->O                 2.912          VGA_G_0_OBUF (VGA_G<0>)
+    ----------------------------------------
+    Total                     17.113ns (5.950ns logic, 11.163ns route)
+                                       (34.8% logic, 65.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_33_o'
+  Total number of paths / destination ports: 18 / 6
+-------------------------------------------------------------------------
+Offset:              11.207ns (Levels of Logic = 6)
+  Source:            VGA_SQ/BarrierX2_8_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_33_o falling
+
+  Data Path: VGA_SQ/BarrierX2_8_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.581   0.954  VGA_SQ/BarrierX2_8_LDC (VGA_SQ/BarrierX2_8_LDC)
+     LUT3:I0->O           10   0.235   1.463  VGA_SQ/BarrierX2_81 (VGA_SQ/BarrierX2_8)
+     LUT6:I0->O            3   0.254   1.196  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<8>1 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<8>)
+     LUT6:I1->O            2   0.254   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     11.207ns (4.725ns logic, 6.482ns route)
+                                       (42.2% logic, 57.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_35_o'
+  Total number of paths / destination ports: 36 / 6
+-------------------------------------------------------------------------
+Offset:              11.243ns (Levels of Logic = 6)
+  Source:            VGA_SQ/BarrierX2_7_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_35_o falling
+
+  Data Path: VGA_SQ/BarrierX2_7_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.581   0.954  VGA_SQ/BarrierX2_7_LDC (VGA_SQ/BarrierX2_7_LDC)
+     LUT3:I0->O           12   0.235   1.499  VGA_SQ/BarrierX2_71 (VGA_SQ/BarrierX2_7)
+     LUT6:I1->O            3   0.254   1.196  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<8>1 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<8>)
+     LUT6:I1->O            2   0.254   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     11.243ns (4.725ns logic, 6.518ns route)
+                                       (42.0% logic, 58.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_41_o'
+  Total number of paths / destination ports: 90 / 6
+-------------------------------------------------------------------------
+Offset:              12.314ns (Levels of Logic = 9)
+  Source:            VGA_SQ/BarrierX2_4_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_41_o falling
+
+  Data Path: VGA_SQ/BarrierX2_4_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              6   0.581   1.331  VGA_SQ/BarrierX2_4_LDC (VGA_SQ/BarrierX2_4_LDC)
+     LUT6:I0->O            5   0.254   1.069  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<8>111 (VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<8>11)
+     LUT6:I3->O            2   0.235   0.834  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<5>11 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<5>)
+     LUT4:I2->O            1   0.250   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2>)
+     MUXCY:CI->O           1   0.235   0.790  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3>)
+     LUT6:I4->O            2   0.250   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     12.314ns (5.421ns logic, 6.893ns route)
+                                       (44.0% logic, 56.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_37_o'
+  Total number of paths / destination ports: 54 / 6
+-------------------------------------------------------------------------
+Offset:              12.125ns (Levels of Logic = 8)
+  Source:            VGA_SQ/BarrierX2_6_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_37_o falling
+
+  Data Path: VGA_SQ/BarrierX2_6_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              4   0.581   1.032  VGA_SQ/BarrierX2_6_LDC (VGA_SQ/BarrierX2_6_LDC)
+     LUT3:I0->O           13   0.235   1.206  VGA_SQ/BarrierX2_61 (VGA_SQ/BarrierX2_6)
+     LUT6:I4->O            2   0.250   0.834  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<7>11 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<7>)
+     LUT4:I2->O            1   0.250   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<3>)
+     MUXCY:S->O            1   0.427   0.790  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3>)
+     LUT6:I4->O            2   0.250   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     12.125ns (5.394ns logic, 6.731ns route)
+                                       (44.5% logic, 55.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_39_o'
+  Total number of paths / destination ports: 66 / 6
+-------------------------------------------------------------------------
+Offset:              12.347ns (Levels of Logic = 8)
+  Source:            VGA_SQ/BarrierX2_5_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_39_o falling
+
+  Data Path: VGA_SQ/BarrierX2_5_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              8   0.581   1.172  VGA_SQ/BarrierX2_5_LDC (VGA_SQ/BarrierX2_5_LDC)
+     LUT3:I0->O           10   0.235   1.116  VGA_SQ/BarrierX2_51 (VGA_SQ/BarrierX2_5)
+     LUT5:I3->O            2   0.250   1.002  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<6>11 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<6>)
+     LUT4:I0->O            1   0.254   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<3>)
+     MUXCY:S->O            1   0.427   0.790  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3>)
+     LUT6:I4->O            2   0.250   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     12.347ns (5.398ns logic, 6.949ns route)
+                                       (43.7% logic, 56.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_43_o'
+  Total number of paths / destination ports: 102 / 6
+-------------------------------------------------------------------------
+Offset:              13.429ns (Levels of Logic = 10)
+  Source:            VGA_SQ/BarrierX2_3_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_43_o falling
+
+  Data Path: VGA_SQ/BarrierX2_3_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              3   0.581   0.994  VGA_SQ/BarrierX2_3_LDC (VGA_SQ/BarrierX2_3_LDC)
+     LUT3:I0->O           10   0.235   1.236  VGA_SQ/BarrierX2_31 (VGA_SQ/BarrierX2_3)
+     LUT6:I3->O            5   0.235   1.069  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<8>111 (VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<8>11)
+     LUT6:I3->O            2   0.235   0.834  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<5>11 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<5>)
+     LUT4:I2->O            1   0.250   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2>)
+     MUXCY:CI->O           1   0.235   0.790  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3>)
+     LUT6:I4->O            2   0.250   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     13.429ns (5.637ns logic, 7.792ns route)
+                                       (42.0% logic, 58.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_45_o'
+  Total number of paths / destination ports: 114 / 6
+-------------------------------------------------------------------------
+Offset:              13.308ns (Levels of Logic = 10)
+  Source:            VGA_SQ/BarrierX2_2_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_45_o falling
+
+  Data Path: VGA_SQ/BarrierX2_2_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.581   0.954  VGA_SQ/BarrierX2_2_LDC (VGA_SQ/BarrierX2_2_LDC)
+     LUT3:I0->O           12   0.235   1.177  VGA_SQ/BarrierX2_21 (VGA_SQ/BarrierX2_2)
+     LUT5:I3->O            5   0.250   0.841  VGA_SQ/GND_8_o_BarrierX2[9]_LessThan_72_o11 (VGA_SQ/GND_8_o_BarrierX2[9]_LessThan_72_o11)
+     LUT4:I3->O            2   0.254   1.002  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<4>11 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<4>)
+     LUT4:I0->O            1   0.254   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2>)
+     MUXCY:CI->O           1   0.235   0.790  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3>)
+     LUT6:I4->O            2   0.250   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     13.308ns (5.675ns logic, 7.633ns route)
+                                       (42.6% logic, 57.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_47_o'
+  Total number of paths / destination ports: 126 / 6
+-------------------------------------------------------------------------
+Offset:              13.355ns (Levels of Logic = 10)
+  Source:            VGA_SQ/BarrierX2_1_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_47_o falling
+
+  Data Path: VGA_SQ/BarrierX2_1_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              3   0.581   0.994  VGA_SQ/BarrierX2_1_LDC (VGA_SQ/BarrierX2_1_LDC)
+     LUT3:I0->O           11   0.235   1.147  VGA_SQ/BarrierX2_11 (VGA_SQ/BarrierX2_1)
+     LUT6:I4->O            5   0.250   1.069  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<8>111 (VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<8>11)
+     LUT6:I3->O            2   0.235   0.834  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<5>11 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<5>)
+     LUT4:I2->O            1   0.250   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2>)
+     MUXCY:CI->O           1   0.235   0.790  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3>)
+     LUT6:I4->O            2   0.250   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     13.355ns (5.652ns logic, 7.703ns route)
+                                       (42.3% logic, 57.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_31_o'
+  Total number of paths / destination ports: 12 / 6
+-------------------------------------------------------------------------
+Offset:              10.877ns (Levels of Logic = 6)
+  Source:            VGA_SQ/BarrierX2_9_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_31_o falling
+
+  Data Path: VGA_SQ/BarrierX2_9_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              3   0.581   0.994  VGA_SQ/BarrierX2_9_LDC (VGA_SQ/BarrierX2_9_LDC)
+     LUT3:I0->O            6   0.235   1.331  VGA_SQ/BarrierX2_91 (VGA_SQ/BarrierX2_9)
+     LUT6:I0->O            1   0.254   0.958  VGA_SQ/Madd_BarrierX2[9]_GND_8_o_add_347_OUT_xor<9>11 (VGA_SQ/BarrierX2[9]_GND_8_o_add_347_OUT<9>)
+     LUT6:I2->O            2   0.254   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     10.877ns (4.725ns logic, 6.152ns route)
+                                       (43.4% logic, 56.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'VGA_SQ/RESET_GND_8_o_AND_49_o'
+  Total number of paths / destination ports: 24 / 6
+-------------------------------------------------------------------------
+Offset:              11.017ns (Levels of Logic = 10)
+  Source:            VGA_SQ/BarrierX2_0_LDC (LATCH)
+  Destination:       VGA_B<1> (PAD)
+  Source Clock:      VGA_SQ/RESET_GND_8_o_AND_49_o falling
+
+  Data Path: VGA_SQ/BarrierX2_0_LDC to VGA_B<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.581   0.954  VGA_SQ/BarrierX2_0_LDC (VGA_SQ/BarrierX2_0_LDC)
+     LUT3:I0->O            7   0.235   1.186  VGA_SQ/BarrierX2_01 (VGA_SQ/BarrierX2_0)
+     LUT4:I0->O            1   0.254   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<0> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<0> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<1> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<2>)
+     MUXCY:CI->O           1   0.235   0.790  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<3>)
+     LUT6:I4->O            2   0.250   0.954  VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4> (VGA_SQ/Mcompar_ScanlineX[10]_GND_8_o_LessThan_349_o_cy<4>)
+     LUT6:I3->O            1   0.235   1.112  VGA_SQ/ColorOutput<1> (ColorTable<0>)
+     LUT6:I1->O            4   0.254   0.803  VGA_Control/Mmux_BLUE11 (VGA_B_0_OBUF)
+     OBUF:I->O                 2.912          VGA_B_0_OBUF (VGA_B<0>)
+    ----------------------------------------
+    Total                     11.017ns (5.218ns logic, 5.799ns route)
+                                       (47.4% logic, 52.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLOCK_24
+-----------------------------+---------+---------+---------+---------+
+                             | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                 |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------------------+---------+---------+---------+---------+
+CLOCK_24                     |    7.647|         |         |         |
+RESET_N                      |    6.593|         |         |         |
+VGA_SQ/RESET_GND_8_o_AND_31_o|         |    6.534|         |         |
+VGA_SQ/RESET_GND_8_o_AND_33_o|         |    7.562|         |         |
+VGA_SQ/RESET_GND_8_o_AND_35_o|         |    7.469|         |         |
+VGA_SQ/RESET_GND_8_o_AND_37_o|         |    7.300|         |         |
+VGA_SQ/RESET_GND_8_o_AND_39_o|         |    6.717|         |         |
+VGA_SQ/RESET_GND_8_o_AND_41_o|         |    7.354|         |         |
+VGA_SQ/RESET_GND_8_o_AND_43_o|         |    6.994|         |         |
+VGA_SQ/RESET_GND_8_o_AND_45_o|         |    6.990|         |         |
+VGA_SQ/RESET_GND_8_o_AND_47_o|         |    7.412|         |         |
+VGA_SQ/RESET_GND_8_o_AND_49_o|         |    7.489|         |         |
+VGA_SQ/clk                   |    8.719|         |         |         |
+-----------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_31_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    5.765|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_33_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    4.966|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_35_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    5.175|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_37_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    4.966|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_39_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    3.913|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_41_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    3.792|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_43_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    3.659|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_45_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    3.704|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_47_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    3.704|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/RESET_GND_8_o_AND_49_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |         |         |    3.224|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock VGA_SQ/clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_24       |    5.102|         |         |         |
+VGA_SQ/clk     |    3.912|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 50.00 secs
+Total CPU time to Xst completion: 50.38 secs
+ 
+--> 
+
+Total memory usage is 4570308 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   70 (   0 filtered)
+Number of infos    :   12 (   0 filtered)
+

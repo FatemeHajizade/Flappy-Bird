@@ -1,0 +1,1490 @@
+xst -intstyle ise -ifn "C:/My_Designs/ISE/CAD971VGA/CAD971Test.xst" -ofn "C:/My_Designs/ISE/CAD971VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hadi/Desktop/VGA/CAD971VGA/CAD971Test.xst" -ofn "C:/Users/Hadi/Desktop/VGA/CAD971VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hadi/Desktop/VGA/CAD971VGA/CAD971Test.xst" -ofn "C:/Users/Hadi/Desktop/VGA/CAD971VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hadi/Desktop/VGA/CAD971VGA/CAD971Test.xst" -ofn "C:/Users/Hadi/Desktop/VGA/CAD971VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hadi/Desktop/VGA/CAD971VGA/CAD971Test.xst" -ofn "C:/Users/Hadi/Desktop/VGA/CAD971VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+netgen -intstyle ise -ar Structure -tm CAD971Test -w -dir netgen/synthesis -ofmt vhdl -sim CAD971Test.ngc CAD971Test_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/Alisa/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/aliiiii/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 
+xst -intstyle ise -ifn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.xst" -ofn "C:/Users/LENOVO/Desktop/CAD972VGA/CAD971Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-2 CAD971Test.ngc CAD971Test.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CAD971Test_map.ncd CAD971Test.ngd CAD971Test.pcf 
+par -w -intstyle ise -ol high -mt off CAD971Test_map.ncd CAD971Test.ncd CAD971Test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml CAD971Test.twx CAD971Test.ncd -o CAD971Test.twr CAD971Test.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f CAD971Test.ut CAD971Test.ncd 

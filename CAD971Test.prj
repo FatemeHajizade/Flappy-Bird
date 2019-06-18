@@ -1,0 +1,3 @@
+vhdl work "VGA_Square.vhd"
+vhdl work "VGA_controller.vhd"
+vhdl work "CAD971Test.vhd"
